@@ -1,0 +1,74 @@
+#contactstickslider{
+	width:500px;
+	/*top:100px;
+	position:absolute;*/
+	top: 274px;
+    position: fixed;
+	    z-index: 100000;
+}
+   
+#headstickcontact{ 
+	width:260px;
+	 height: 415px;/*height:520px;*/
+	position:absolute; 
+	background:#00bcd4;
+	right:0px; 
+	border: 0px solid #d8d8d8;
+    margin-left: 40px;
+	margin-top: 21%;
+    padding: 0px 9px;
+    border-radius: 20px 0px 0px 0px;
+    box-shadow: 0 0 2px #f0575a;
+	bottom: -503px;
+}
+div#headstickcontact h3,h5,h6{
+    color: #fff;
+}
+
+#stickcontactside{
+	position:absolute;
+	top:340px;/*180px*/
+	left:113px;
+	box-shadow: 0 0 8px gray;
+}
+
+#stickcontactside1{
+	position:absolute;
+	top:340px;
+	left: 194px;
+	box-shadow: 0 0 8px gray;
+}
+
+
+
+.sticky_cnt_txtarea{
+	padding:6px;
+	font-size:15px;
+	border-radius:2px;
+	border:3px solid #98d0f1;
+	margin-top: 10px;
+	height:80px;
+	width:100%;
+}	
+
+.sticky_cont_btn{
+	background:#68bae1;
+	border: none;
+	color: #fff;
+	width: 100%;
+	font-size: 22px;
+	font-weight: bolder;
+	padding: 8px 0 8px 0;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top:25px;
+}
+/*--------------------------------------
+		Advertisement div
+----------------------------------------*/
+.formget{
+	width:300px;
+	margin-top: 65px;
+	margin-left: 57px;
+	float: left;
+	}
