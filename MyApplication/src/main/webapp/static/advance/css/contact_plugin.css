@@ -1,0 +1,74 @@
+.contact_plugin {
+    
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    bottom:0;
+    background-color:#00bcd4;
+    overflow-x: hidden;
+    transition: 0.5s;
+   border-radius: 10px;
+    color:#ffffff;
+    
+}
+div.contact_form{
+    padding:10px;
+    padding-bottom:5px;
+}
+
+div.contact_form>div.form-group>label{
+    color:#fff;
+}
+
+.contact_plugin a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f6f6f6;
+    display: block;
+    transition: 0.3s
+}
+
+.contact_plugin a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.contact_plugin .closebtn {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    
+    
+}
+
+.relative{
+    position:relative;
+}
+.small_side_bar{
+position:fixed;bottom:0px;right:10px;
+    z-index: 1;
+    }
+.small_side_bar>span{
+    
+    font-size:40px;cursor:pointer;color:#F0575A;
+    
+}
+
+
+
+.small_side_bar_bottom_to_top{
+position:fixed;bottom:0px;left:10px;
+    z-index: 1;
+    }
+.small_side_bar_bottom_to_top>span{
+    
+    font-size:40px;cursor:pointer;color:#F0575A;
+    
+}
+
+
+@media screen and (max-height: 450px) {
+  .contact_plugin {padding-top: 15px;}
+  .contact_plugin a {font-size: 18px;}
+}
